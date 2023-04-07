@@ -1,0 +1,178 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.menu-links {
+  font-weight: bold;
+  color: #000;
+  font-size: 0.9rem;
+  padding: 0px !important;
+  margin: 8px;
+}
+
+.active-link, .catalogue-heading {
+  border-bottom: 5px solid #ffdd00;
+}
+
+.login-style {
+  border-width: 0 0 1.5px 0;
+  border-radius: 0px;
+  border-color: black;
+  margin: 0 0 25px 0;
+}
+
+.login-font {
+  font-size: 1rem;
+}
+
+.button-color {
+  background-color: #ffdd00;
+}
+
+.button-color:hover {
+  background-color: black;
+  color: white;
+}
+
+button:hover svg path {
+  fill: white;
+}
+.bg-image {
+  background-image: url("assets/intro-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-padding {
+  padding: 10vw;
+}
+
+@media (max-width: 1000px) {
+  .form-padding {
+    padding: 5vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .form-padding {
+    padding: 10vw;
+  }
+}
+
+.catalogue-btn {
+  border: 1px solid black;
+  font-size: .8rem;
+}
+
+.card:hover {
+  background-color: #ffdd00;
+  transform: scale(1.02);
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+.card:hover .catalogue-btn {
+  color: white;
+  background-color: black;
+}
+
+.card,.card-img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-img {
+  width: 75px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.course-catalogue-section {
+  padding: 0 5vw 0 5vw;
+}
+
+.cookies-btn {
+  font-size: .7rem;
+  border-color: #70b93c;
+  color: #70b93c;
+}
+
+.copyright {
+  font-size: .7rem;
+}
+
+.address, .data-retention {
+  font-size: .8rem;
+}
+
+
+/* Video Placeholder Styles */
+
+.video-section {
+  padding: 50px 0 50px 0;
+}
+
+.video-wrapper {
+  height: 600px;
+  overflow: hidden
+}
+
+.video-placeholder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 635px;
+  height: 357px;
+  background-image: url("assets/videoplaceholder.png");
+  background-position: center;
+  z-index: 1;
+}
+
+.yellow-video-bg {
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  width: 635px;
+  height: 357px;
+  background-color: #ffdd00;
+  z-index: 0;
+}
+
+.video-text-wrapper {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 635px;
+}
+
+.gray-block, .white-block {
+  height: 300px;
+}
+
+.white-block {
+  margin-bottom: 50px;
+}
+
+.video-wrapper-mobile{
+  display: none;
+}
+
+.video-h2 {
+  font-size: 2.2rem;
+}
+
+@media (max-width: 767px) {
+  .video-wrapper-mobile {
+    display: block;
+  }
+
+  .video-wrapper {
+    display: none;
+  }
+
+}

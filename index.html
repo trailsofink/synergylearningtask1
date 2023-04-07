@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Joel's Synergy Learning Techincal Task Mockup</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-scroll bg-body-tertiary shadow-sm">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="assets/logo.png" alt="Nikon" width="50" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link menu-links" href="#">DASHBOARD</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link active-link menu-links" href="#">COURSE CATALOGUE</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link menu-links" href="#">MY BADGES</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link menu-links" href="#">EVENTS</a>
+              </li>
+          </ul>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link menu-links" href="#">LOG IN</a>
+              </li>
+          </ul>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section>
+      <div class="container-fluid bg-light login-bg">
+        <div class="row">
+          <div class="col-md-6 order-sm-2 order-lg-1 order-md-1">
+            <form class="form-padding">
+              <p class="m-0">Welcome to</p>
+              <h2 class="mb-4 p-0">MyLearning</h2>
+              <div class="form-group login-style">
+                <label class="fw-bold login-font" for="username">USERNAME</label>
+                <input type="text" class="form-control bg-light login-style" id="username">
+              </div>
+              <div class="form-group login-style">
+                <label class="fw-bold login-font" for="password">PASSWORD</label>
+                <input type="password" class="form-control bg-light login-style" id="password">
+              </div>
+              <button type="submit" class="btn button-color rounded-0 w-100"><svg xmlns="http://www.w3.org/2000/svg" height="19" width="16" viewBox="0 0 17 16">
+                  <g fill="none" fill-rule="evenodd">
+                      <path fill="#000" fill-rule="nonzero" d="M11.743 6.297c.07-.157.07-.367 0-.594-.07-.07-.07-.14-.14-.21L6.506.398C6.226.1 5.791.1 5.494.397c-.297.297-.297.733 0 1.012L9.35 5.267H.903c-.436 0-.715.297-.715.733s.279.733.715.733h8.448l-3.857 3.84a.707.707 0 000 1.03c.14.14.366.21.506.21s.367-.07.506-.21l5.097-5.097c.07-.07.14-.14.14-.21z"></path>
+                  </g>
+              </svg>LOG IN</button>
+              <div class="row">
+                  <a class="col-6 just pt-3 text-black link-underline link-underline-opacity-0" href="#">Contact Us</a>
+                  <a class="col-6 text-end pt-3 text-black link-underline link-underline-opacity-0" href="#">Lost password?</a>
+
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 order-sm-1 order-lg-2 order-md-2 bg-image">
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Course Catalogue Section -->
+  <section class="course-catalogue-section">
+    <div class="row py-5 justify-content-center course-catalogue-section">
+      <div>
+        <h2 class="catalogue-heading pb-2 mb-5 mx-3">Course Catalogue</h2>
+      </div>
+      <div class="row flex-wrap xl-flex-nowrap">
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl flex-fill shadow p-3 m-3 card border-0 rounded-0">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h2 class="card-title text-center mt-3">Product and Technical</h2>
+            <img class="card-img rounded-0 mx-auto d-block my-5" src="assets/product.png" alt="Card image cap">
+            <button type="submit" class="btn catalogue-btn rounded-0 w-100"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 17 13">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#000" fill-rule="nonzero" d="M11.743 6.297c.07-.157.07-.367 0-.594-.07-.07-.07-.14-.14-.21L6.506.398C6.226.1 5.791.1 5.494.397c-.297.297-.297.733 0 1.012L9.35 5.267H.903c-.436 0-.715.297-.715.733s.279.733.715.733h8.448l-3.857 3.84a.707.707 0 000 1.03c.14.14.366.21.506.21s.367-.07.506-.21l5.097-5.097c.07-.07.14-.14.14-.21z"></path>
+              </g>
+            </svg>VIEW COURSE</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl flex-fill shadow p-3 m-3 card border-0 rounded-0">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h2 class="card-title text-center mt-3">Business Development</h2>
+            <img class="card-img rounded-0 mx-auto d-block my-5" src="assets/business-development.png" alt="Card image cap">
+            <button type="submit" class="btn catalogue-btn rounded-0 w-100"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 17 13">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#000" fill-rule="nonzero" d="M11.743 6.297c.07-.157.07-.367 0-.594-.07-.07-.07-.14-.14-.21L6.506.398C6.226.1 5.791.1 5.494.397c-.297.297-.297.733 0 1.012L9.35 5.267H.903c-.436 0-.715.297-.715.733s.279.733.715.733h8.448l-3.857 3.84a.707.707 0 000 1.03c.14.14.366.21.506.21s.367-.07.506-.21l5.097-5.097c.07-.07.14-.14.14-.21z"></path>
+              </g>
+            </svg>VIEW COURSE</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl flex-fill shadow p-3 m-3 card border-0 rounded-0">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h2 class="card-title text-center mt-3">Optics and Manufacturing</h2>
+            <img class="card-img rounded-0 mx-auto d-block my-5" src="assets/optics.png" alt="Card image cap">
+            <button type="submit" class="btn catalogue-btn rounded-0 w-100"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 17 13">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#000" fill-rule="nonzero" d="M11.743 6.297c.07-.157.07-.367 0-.594-.07-.07-.07-.14-.14-.21L6.506.398C6.226.1 5.791.1 5.494.397c-.297.297-.297.733 0 1.012L9.35 5.267H.903c-.436 0-.715.297-.715.733s.279.733.715.733h8.448l-3.857 3.84a.707.707 0 000 1.03c.14.14.366.21.506.21s.367-.07.506-.21l5.097-5.097c.07-.07.14-.14.14-.21z"></path>
+              </g>
+            </svg>VIEW COURSE</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl flex-fill shadow p-3 m-3 card border-0 rounded-0">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h2 class="card-title text-center mt-3 pb-xl-5 pb-xxl-3">CPD</h2>
+            <img class="card-img rounded-0 mx-auto d-block my-5" src="assets/cpd.png" alt="Card image cap">
+            <button type="submit" class="btn catalogue-btn rounded-0 w-100"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 17 13">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#000" fill-rule="nonzero" d="M11.743 6.297c.07-.157.07-.367 0-.594-.07-.07-.07-.14-.14-.21L6.506.398C6.226.1 5.791.1 5.494.397c-.297.297-.297.733 0 1.012L9.35 5.267H.903c-.436 0-.715.297-.715.733s.279.733.715.733h8.448l-3.857 3.84a.707.707 0 000 1.03c.14.14.366.21.506.21s.367-.07.506-.21l5.097-5.097c.07-.07.14-.14.14-.21z"></path>
+              </g>
+            </svg>VIEW COURSE</button>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 col-xxl flex-fill shadow p-3 m-3 card border-0 rounded-0">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h2 class="card-title text-center mt-3">Business Management</h2>
+            <img class="card-img rounded-0 mx-auto d-block my-5" src="assets/business-management.png" alt="Card image cap">
+            <button type="submit" class="btn catalogue-btn rounded-0 w-100"><svg xmlns="http://www.w3.org/2000/svg" height="16" width="12" viewBox="0 0 17 13">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#000" fill-rule="nonzero" d="M11.743 6.297c.07-.157.07-.367 0-.594-.07-.07-.07-.14-.14-.21L6.506.398C6.226.1 5.791.1 5.494.397c-.297.297-.297.733 0 1.012L9.35 5.267H.903c-.436 0-.715.297-.715.733s.279.733.715.733h8.448l-3.857 3.84a.707.707 0 000 1.03c.14.14.366.21.506.21s.367-.07.506-.21l5.097-5.097c.07-.07.14-.14.14-.21z"></path>
+              </g>
+            </svg>VIEW COURSE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Placeholder Section -->
+  <section class="video-section">
+
+    <div class="video-wrapper position-relative">
+      <div class="gray-block h-1/2 bg-light">
+      </div>
+      <div class="white-block h-1/2 bg-white">
+      </div>
+      <div class="video-placeholder">
+        <div class="video-text-wrapper mt-4">
+          <h2 class="video-h2 mb-2">About Nikon Lenswear UK</h2>
+          <p>A pioneer in ophthalmic lens technology, Nikon Lenswear supports premium independt opticians across the UK to grow and differentiate their business.</p>
+        </div>
+      </div>
+      <div class="yellow-video-bg">
+      </div>
+    </div>
+
+    <div class="video-wrapper-mobile p-5">
+      <img class="img-fluid w-100 mw-100" src="assets/videoplaceholder.png" alt="">
+      <div class="mt-5">
+        <h2 class="vidoe-h2 mb-2">About Nikon Lenswear UK</h2>
+        <p>A pioneer in ophthalmic lens technology, Nikon Lenswear supports premium independt opticians across the UK to grow and differentiate their business.</p>
+      </div>
+    </div>
+
+
+  </section>
+
+  <!-- Footer Section -->
+  <section class="footer-section bg-light mt-5 p-5">
+    <div class="row">
+      <div class="col-sm-6">
+        <p class="copyright">© 2023 Nikon Optical Ltd, All rights reserved.</p>
+        <button type="submit" class="btn button-color contact-button rounded-0 py-2 px-4">
+          <svg fill="#000000" width="1rem" height="1rem" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.384,17.752a2.108,2.108,0,0,1-.522,3.359,7.543,7.543,0,0,1-5.476.642C10.5,20.523,3.477,13.5,2.247,8.614a7.543,7.543,0,0,1,.642-5.476,2.108,2.108,0,0,1,3.359-.522L8.333,4.7a2.094,2.094,0,0,1,.445,2.328A3.877,3.877,0,0,1,8,8.2c-2.384,2.384,5.417,10.185,7.8,7.8a3.877,3.877,0,0,1,1.173-.781,2.092,2.092,0,0,1,2.328.445Z"/></svg> CONTACT US</button>
+        <p class="fw-bolder mb-5 mt-3 address">Nikon Optical Ltd</br>3 Tanners Drive</br>Blakelands</br>Milton Keynes, Buck Mk14 5BU</br>United Kingdom</p>
+        <a href="#" class="my-5 text-black data-retention">Data retention summary Policies</a>
+        </br>
+        <button type="button" name="button" class="btn rounded-0 px-4 py-2 cookies-btn mt-5">Cookies Settings</button>
+
+      </div>
+    </div>
+  </section>
+
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="myjs.js"></script>
+</body>
+</html>
